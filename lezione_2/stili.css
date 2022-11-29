@@ -1,0 +1,88 @@
+* {
+    border: solid black;
+    background-color: gray;
+}
+
+
+.flexConteiner{
+    display: flex;
+   
+}
+
+.articleConteiner{
+    flex:33%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: black;
+    
+}
+
+.responsiveImage {
+    display: block;
+    background-image: cover;
+    background-position: center;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    width: 60%;
+    height: 170px;
+}
+
+form{
+    display: block;
+	background-color: #092bee;
+	width: 100px;
+	color: white;
+	padding: 10px 18px;
+	/*border: 1px solid rgb(74, 37, 37);*/
+	border: none;
+	border-radius: 0px 60px 0px 60px;
+	margin: auto;
+	cursor: pointer;
+    text-align: center;
+}
+
+form > input{
+    border: none;
+    cursor: pointer;
+    background-color: #092bee;
+}
+
+form > input[type=submit]:hover {
+	background-color: #046daa;
+    border-radius: 6px;
+    }
+
+.divContainer{
+    display: flex;
+    flex: 0 0 auto;
+    border-radius: 10px 10px 10px 10px;
+ 
+    
+}
+
+
+
+/*.panetDolce{
+    background-image: url('../lezione_2/immagini_progetto/panettone.jpg');
+    height: 600px;
+    width: 600px}
+*/
+/*<img src='../lezione_2/immagini_progetto/panettone.jpg' alt='Panettone de merda' width='auto' height='100'>*/
+
+/*
+<table>
+                    <tr>
+                        <td >$dolce1<div class= 'panetDolce'></div></td>
+                        <td>$prezzo1</td>
+                    </tr>
+                    <tr>
+                        <td>$dolce2</td>
+                        <td>$prezzo2</td>
+                    </tr>
+                    <tr>
+                        <td>$dolce3</td>
+                        <td>$prezzo3</td>
+                    </tr>
+                </table><hr>";
+
+*/
